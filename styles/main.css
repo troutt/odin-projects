@@ -1,15 +1,14 @@
-
 img.googlelogo {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 269px;
 	height: 95px;
-	padding-top: 112px;
+	margin-top: 160px;
 }
 
+
 input.search  {
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	height: 30px;
@@ -27,23 +26,96 @@ input.search:focus {
 
 li {
 	display: inline-block;
-	position: relative;	
+	position: relative;
+	margin-right: 10px;	
 }
 
 #apps {
-	color: blue;
-}
+	display:inline-block;
+	height:30px;
+	width:30px;
+	background-image: url(../images/apps.png);
+	background-size: 908px 52px;
+	background-position: -222px 0;
+	line-height:28px;
+	vertical-align: middle;
+	opacity:.6;
+	margin-left: 11px;
+	color: #404040;
+} 
+
 
 #signin {
-	color: red;
+	color: white;
+	background: #4285f4;
+	padding: 6px 12px 6px 12px;
+	border-radius: 2px;
 }
 
 
-.container{
+.buttons{
 	text-align: center;
 	padding-top: 15px;
 }
 
 .btn {
+	text-decoration: none;
+	border: 1px solid #dcdcdc;
+	box-shadow: none;
 	position: relative;
+	background: white;
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 2px;
+	color: #444;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 12px;
+
 }
+
+header {
+	display: block;
+	text-align: right;
+}
+
+.navbar {
+	padding: 3px;
+	padding-right: 15px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a {
+	color: #404040;
+}
+
+#voice {
+	background-image: url(../images/vSearch.gif);
+	background-color: blue;
+	display: inline;
+}
+
+#search_area {
+	height: 30px;
+	width: 523px;
+	display: block;
+	text-align: center;
+	background: blue;
+	margin: auto;
+	display: inline;
+}
+
+#search_area img {
+	height: 23px;
+	width: 17px;
+	border-color: #D4D4D4;
+	border-style: solid;
+	border: none;
+	opacity: .6;
+	color: #444;
+
+}
+
