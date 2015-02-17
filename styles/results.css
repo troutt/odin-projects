@@ -1,0 +1,72 @@
+header {
+	width: 100%;
+	height: 60px;
+	zoom: 1;
+	min-width: 950px;
+	width: auto !important;
+	width: 500px;
+	overflow: hidden;
+}
+
+header div {
+	display: inline-block;
+	vertical-align: middle;
+	height: 45px;
+	position: relative;
+}
+
+.google-logo {
+	float: left;
+	height: 60px;
+	width: 100px;
+	margin: 10px 25px 0px 10px;
+}
+.google-logo a {
+	display: block;
+	height: 50px;
+	padding: 10px 25px 0px 10px;
+
+	background-image: url(../images/googlelogo.png);
+	background-size: 100px 50px;
+	background-repeat: no-repeat;
+}
+
+
+.search-area {
+	float: left;
+	width: 700px;
+}
+
+.search-box {
+	width: 500px;
+	height: 30px;
+	position: absolute;
+	margin-top: 15px;
+	background: url(../images/vSearch.gif) 98% center no-repeat;
+	background-size: 14px 19px;
+	opacity: .6;
+}
+
+.search-btn {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 500px;
+	background: url(../images/icons.png) no-repeat -205px -60px;
+}
+
+.header-right {
+	float: right;
+	margin-right: 0;
+	margin-left: auto;
+	background-color: aqua;
+	text-align: right;
+	width: auto;
+}
+
+nav {
+	width: 100%;
+	height: 60px;
+	background: orange;
+}
