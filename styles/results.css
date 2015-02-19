@@ -31,6 +31,9 @@ header div {
 	background-repeat: no-repeat;
 }
 
+#img {
+	background: orange;
+}
 
 .search-area {
 	float: left;
@@ -48,12 +51,23 @@ header div {
 }
 
 .search-btn {
-	width: 30px;
+	width: 60px;
 	height: 30px;
 	position: absolute;
 	margin-top: 15px;
 	margin-left: 500px;
-	background: url(../images/icons.png) no-repeat -205px -60px;
+	background-color: #4285f4;
+	border: none;
+	border-radius: 2px;
+}
+
+#lupa {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 515px;
+	background: url(../images/icons.png) no-repeat -56px -35px;
 }
 
 .header-right {
