@@ -33,10 +33,6 @@ header div {
 	background-repeat: no-repeat;
 }
 
-#img {
-	background: orange;
-}
-
 .search-area {
 	float: left;
 	width: 700px;
@@ -113,7 +109,6 @@ nav {
 }
 nav ul {
 	margin-left: 100px;
-	background-color: orange;
 }
 nav ul li {
 	width: 100%;
@@ -127,9 +122,10 @@ nav ul li {
 }
 
 .gear_btn {
-	background-color: #4d90fe;
+	background-color: white;
 	color: white;
 	text-decoration: none;
+	border: 1px solid;
 	border-radius: 2px;
 	font-weight: bold;
 	float: right;
@@ -141,7 +137,27 @@ nav ul li {
 	background-repeat: no-repeat;
 	background-position: 10px 0px;
 	text-indent: -9999px;
-	height: 30px;
-	width: 45px;
+	height: 15px;
+	width: 30px;
 
+}
+
+footer {
+	background-color: white;
+	border-top: 1px solid rgba(0, 0, 0, .4);
+	opacity: .8;
+}
+footer ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+footer p {
+	margin-left: 40px;
+}
+
+.content {
+	width: 30%;
+	margin-left: 50px;
+	margin-bottom: 10px;
 }
