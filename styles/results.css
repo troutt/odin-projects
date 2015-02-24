@@ -46,6 +46,7 @@ header div {
 	background: url(../images/vSearch.gif) 98% center no-repeat;
 	background-size: 14px 19px;
 	border: 1px solid #dcdcdc;
+	opacity: .8;
 }
 
 .search-btn {
@@ -146,6 +147,8 @@ footer {
 	background-color: white;
 	border-top: 1px solid rgba(0, 0, 0, .4);
 	opacity: .8;
+	height: 75px;
+	position: relative;
 }
 footer ul li {
 	display: inline-block;
@@ -161,3 +164,4 @@ footer p {
 	margin-left: 50px;
 	margin-bottom: 10px;
 }
+
