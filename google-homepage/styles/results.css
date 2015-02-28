@@ -1,0 +1,167 @@
+header {
+	width: 100%;
+	height: 60px;
+	zoom: 1;
+	min-width: 950px;
+	width: auto !important;
+	width: 500px;
+	overflow: hidden;
+
+}
+
+header div {
+	display: inline-block;
+	vertical-align: middle;
+	height: 45px;
+	position: relative;
+	margin-top: 0px;
+}
+
+.google-logo {
+	float: left;
+	height: 60px;
+	width: 100px;
+	margin: 10px 25px 0px 10px;
+}
+.google-logo a {
+	display: block;
+	height: 50px;
+	padding: 10px 25px 0px 10px;
+
+	background-image: url(../images/googlelogo.png);
+	background-size: 100px 50px;
+	background-repeat: no-repeat;
+}
+
+.search-area {
+	float: left;
+	width: 700px;
+}
+
+.search-box {
+	width: 500px;
+	height: 30px;
+	position: absolute;
+	margin-top: 15px;
+	background: url(../images/vSearch.gif) 98% center no-repeat;
+	background-size: 14px 19px;
+	border: 1px solid #dcdcdc;
+	opacity: .8;
+}
+
+.search-btn {
+	width: 60px;
+	height: 30px;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 500px;
+	background-color: #4285f4;
+	border: none;
+	border-radius: 2px;
+}
+
+#lupa {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 515px;
+	background: url(../images/icons.png) no-repeat -56px -35px;
+}
+
+.header-right {
+	float: right;
+	margin-right: 15px;
+	margin-top: 5px;
+	margin-left: auto;
+	text-align: right;
+	width: auto;
+	margin-top: 12px;
+}
+
+.apps {
+	background: url(../images/apps.png);
+	background-position: -222px 0;
+	background-size: 908px 52px;
+	height: 35px;
+	width: 35px;
+	opacity: .6;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.sign_in {
+	background-color: #4d90fe;
+	color: white;
+	text-decoration: none;
+	border-radius: 2px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0;
+	float: right;
+	padding: 5px 10px 5px 10px;
+
+}
+
+nav {
+
+	border-bottom: 1px solid #dcdcdc;
+}
+nav ul {
+	margin-left: 100px;
+}
+nav ul li {
+	width: 100%;
+	height: 60px;
+	display: inline;
+	opacity: .85;
+	font-family: Arial;
+	font-size: 14px;
+	padding: 5px 5px 0px 5px;
+	margin-right: 10px;
+}
+
+.gear_btn {
+	background-color: white;
+	color: white;
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 2px;
+	font-weight: bold;
+	float: right;
+	padding: 6px 20px 6px 20px;
+	margin-right: 23px;
+	position: relative;
+	margin-top: -6px;
+	background-image: url(../images/gear_btn.png);
+	background-repeat: no-repeat;
+	background-position: 10px 0px;
+	text-indent: -9999px;
+	height: 15px;
+	width: 30px;
+
+}
+
+footer {
+	background-color: white;
+	border-top: 1px solid rgba(0, 0, 0, .4);
+	opacity: .8;
+	height: 75px;
+	position: relative;
+}
+footer ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+footer p {
+	margin-left: 40px;
+}
+
+.content {
+	width: 30%;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
