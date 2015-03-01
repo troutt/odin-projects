@@ -1,10 +1,15 @@
 function problem3()
 {
-	var input = 13195;
+	// input taken from user in index.html
+	var input = document.getElementById("p2_input").value;
 
+	// prime factors of input
 	var factors = [];
 
-	
+	// used for determining if a number is a factor
+	var flag = false;
+
+	// loop through all input values
 	for (i=0; i<input; i++) 
 	{
 
@@ -23,19 +28,29 @@ function problem3()
 
 			for (j=0; j < factors.length; j++)
 			{
-				document.write(i + " % " + j + " = " + i%factors[j] + " <br>");
-				if ( (i % factors[j] == 0) )
+				if ( i % factors[j] == 0 )
 				{
 					
-					factors.push(i);
+					flag = false;
+					break;
 				}
+				else
+				{
+					flag = true;
+				}
+			}
+
+			if (flag) 
+			{
+				factors.push(i);
+				flag = false;
 			}
 			
 		}
 	}
-	document.write(factors.toString());
+
 	//changes <p> tag text with an id of p2 in index.html
-	//document.getElementById("p3").innerHTML = "The largest integer is: " + factors.toString();
+	document.getElementById("p3").innerHTML = "The largest integer is: " + factors.toString();
 
 }
 
